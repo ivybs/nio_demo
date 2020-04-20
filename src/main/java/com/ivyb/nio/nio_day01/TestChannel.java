@@ -1,3 +1,4 @@
+package com.ivyb.nio.nio_day01;
 /*
 * 一.通道：用于源节点与目标节点的连接，在java nio中负
 * 责缓冲区中数据的传输。
@@ -139,7 +140,6 @@ public class TestChannel {
         RandomAccessFile randomAccessFile1 = new RandomAccessFile("2.txt","rw");
         FileChannel channel1 = randomAccessFile1.getChannel();
         channel1.write(byteBuffers);
-
     }
 
 
@@ -150,8 +150,7 @@ public class TestChannel {
         // create_new: 不存在就创建，存在就报错
         // create: 不存在就创建，存在就覆盖
         FileChannel outChannel = FileChannel.open(Paths.get("4.jpg"),StandardOpenOption.WRITE,StandardOpenOption.CREATE_NEW,StandardOpenOption.READ);
-
-//        inChannel.transferTo(0,inChannel.size(),outChannel);
+        //inChannel.transferTo(0,inChannel.size(),outChannel);
         outChannel.transferFrom(inChannel,0,inChannel.size());
         inChannel.close();
         outChannel.close();
@@ -161,7 +160,6 @@ public class TestChannel {
     //2.使用直接缓冲区完成文件的复制（内存映射文件）-----只有ByteBuffer支持
     @Test
     public void test2() throws IOException {
-
         FileChannel inChannel = FileChannel.open(Paths.get("D:/","test_demo","nio_demo","1.jpg"), StandardOpenOption.READ);
         // create_new: 不存在就创建，存在就报错
         // create: 不存在就创建，存在就覆盖
@@ -176,13 +174,8 @@ public class TestChannel {
         byte[] dst = new byte[inMappedBuf.limit()];
         inMappedBuf.get(dst);
         outMappedBuf.put(dst);
-
         inChannel.close();
         outChannel.close();
-
-
-
-
     }
 
 

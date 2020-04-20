@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89a3cbdf-d665-460a-8c47-96dcc1b250c5" name="Default Changelist" comment="" />
+    <list default="true" id="89a3cbdf-d665-460a-8c47-96dcc1b250c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_nio.mmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivyb/nio/nio_day01/TestBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivyb/nio/nio_day01/TestBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivyb/nio/nio_day01/TestChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivyb/nio/nio_day01/TestChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestChannel.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="nio_demo" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,72 +31,116 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="TestNonBlockingNIO2.send" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectId" id="1acckl3uIK75apmampKwiFEdjdO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\实验demo\nio_demo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestChannel.test4">
-    <configuration name="TestBuffer.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestPipe.test1">
+    <configuration name="TestNonBlockingNIO2.receive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nio_demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBuffer" />
-      <option name="METHOD_NAME" value="test3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivyb.nio.nio_day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivyb.nio.nio_day02" />
+      <option name="MAIN_CLASS_NAME" value="com.ivyb.nio.nio_day02.TestNonBlockingNIO2" />
+      <option name="METHOD_NAME" value="receive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestChannel.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNonBlockingNIO2.send" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nio_demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestChannel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivyb.nio.nio_day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivyb.nio.nio_day02" />
+      <option name="MAIN_CLASS_NAME" value="com.ivyb.nio.nio_day02.TestNonBlockingNIO2" />
+      <option name="METHOD_NAME" value="send" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNonBlockingNIO.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nio_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivyb.nio.nio_day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivyb.nio.nio_day02" />
+      <option name="MAIN_CLASS_NAME" value="com.ivyb.nio.nio_day02.TestNonBlockingNIO" />
+      <option name="METHOD_NAME" value="client" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNonBlockingNIO.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nio_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivyb.nio.nio_day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivyb.nio.nio_day02" />
+      <option name="MAIN_CLASS_NAME" value="com.ivyb.nio.nio_day02.TestNonBlockingNIO" />
+      <option name="METHOD_NAME" value="server" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPipe.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nio_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivyb.nio.nio_day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivyb.nio.nio_day02" />
+      <option name="MAIN_CLASS_NAME" value="com.ivyb.nio.nio_day02.TestPipe" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChannel.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nio_demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestChannel" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChannel.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nio_demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestChannel" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChannel.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nio_demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestChannel" />
-      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestChannel.test4" />
-        <item itemvalue="JUnit.TestChannel.test3" />
-        <item itemvalue="JUnit.TestChannel.test2" />
-        <item itemvalue="JUnit.TestChannel.test1" />
-        <item itemvalue="JUnit.TestBuffer.test3" />
+        <item itemvalue="JUnit.TestNonBlockingNIO2.send" />
+        <item itemvalue="JUnit.TestPipe.test1" />
+        <item itemvalue="JUnit.TestNonBlockingNIO2.receive" />
+        <item itemvalue="JUnit.TestNonBlockingNIO.client" />
+        <item itemvalue="JUnit.TestNonBlockingNIO.server" />
       </list>
     </recent_temporary>
   </component>
@@ -121,37 +182,83 @@
       <workItem from="1587047912983" duration="1095000" />
       <workItem from="1587088771211" duration="7008000" />
       <workItem from="1587105880643" duration="2085000" />
-      <workItem from="1587108505000" duration="4984000" />
+      <workItem from="1587108505000" duration="11073000" />
+      <workItem from="1587178716562" duration="5803000" />
+      <workItem from="1587196357293" duration="2935000" />
+      <workItem from="1587199311732" duration="3206000" />
+      <workItem from="1587349016187" duration="4727000" />
+      <workItem from="1587367962457" duration="8533000" />
     </task>
+    <task id="LOCAL-00001" summary="尚硅谷NIO教程完成">
+      <created>1587372974269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587372974269</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="尚硅谷NIO教程完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="尚硅谷NIO教程完成" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="494" key="GridCell.Tab.0.bottom" timestamp="1587114035286">
+    <state x="683" y="110" key="CommitChangelistDialog2" timestamp="1587372973264">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="494" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587114035286" />
-    <state width="914" height="494" key="GridCell.Tab.0.center" timestamp="1587114035285">
+    <state x="683" y="110" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587372973264" />
+    <state width="914" height="498" key="GridCell.Tab.0.bottom" timestamp="1587384775199">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="494" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587114035285" />
-    <state width="914" height="494" key="GridCell.Tab.0.left" timestamp="1587114035285">
+    <state width="914" height="498" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587384775199" />
+    <state width="914" height="498" key="GridCell.Tab.0.center" timestamp="1587384775198">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="494" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587114035285" />
-    <state width="914" height="494" key="GridCell.Tab.0.right" timestamp="1587114035286">
+    <state width="914" height="498" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587384775198" />
+    <state width="914" height="498" key="GridCell.Tab.0.left" timestamp="1587384775198">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="494" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587114035286" />
-    <state x="1137" y="504" key="com.intellij.ide.util.TipDialog" timestamp="1587105900127">
+    <state width="914" height="498" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587384775198" />
+    <state width="914" height="498" key="GridCell.Tab.0.right" timestamp="1587384775199">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1137" y="504" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587105900127" />
-    <state x="1127" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1587113814845">
+    <state width="914" height="498" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587384775199" />
+    <state width="914" height="498" key="GridCell.Tab.1.bottom" timestamp="1587384775199">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1127" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587113814845" />
+    <state width="914" height="498" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587384775199" />
+    <state width="914" height="498" key="GridCell.Tab.1.center" timestamp="1587384775199">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="498" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587384775199" />
+    <state width="914" height="498" key="GridCell.Tab.1.left" timestamp="1587384775199">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="498" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587384775199" />
+    <state width="914" height="498" key="GridCell.Tab.1.right" timestamp="1587384775199">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="498" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587384775199" />
+    <state x="753" y="183" key="SettingsEditor" timestamp="1587200176701">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="753" y="183" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1587200176701" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1587373081544">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1587373081544" />
+    <state x="1137" y="504" key="com.intellij.ide.util.TipDialog" timestamp="1587367962006">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1137" y="504" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587367962006" />
+    <state x="1127" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1587179086563">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1127" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587179086563" />
   </component>
 </project>
